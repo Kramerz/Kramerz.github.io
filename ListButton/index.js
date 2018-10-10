@@ -3,7 +3,13 @@ window.onload = () => {
     const setTextButton = document.getElementById("set-text");
 
     setTextButton.onclick = () => {
-        userInput.value = 'The first item for my list';
-
+        changeOnClick();
     }
+
+
+}
+
+
+function changeOnClick(){
+    document.getElementById("list-data").value = 'Ryan Was not here.';
 }
