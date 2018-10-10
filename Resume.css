@@ -1,0 +1,19 @@
+.ColumnMargin {
+    padding-right: 25px;
+    
+    
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+h2 {
+    text-align: center;
+}
+body{
+    padding: 15px;
+}
+p {
+    margin: 15px;
+    text-align: center;
+}
