@@ -1,7 +1,7 @@
 button {
-    background-color: red;
-    border: 2px black thick;
-    color: greenyellow;
+    background-color: blue;
+    border: 2px solid #0099CC;
+    color: #0099CC;
     text-align: center;    
-    font-size: 16px;
+    font-size: 22px;
 }
