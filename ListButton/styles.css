@@ -6,6 +6,10 @@ button {
     font-size: 22px;
 }
 
+figure {
+
+}
+
 header {
     background-color: violet;
     text-align: center;
@@ -24,6 +28,8 @@ header p{
 img#list-button-utah {
    width: 100px;
    height: 100px; 
+   float: left;
+   padding-left: 0px;
 }
 
 main{
