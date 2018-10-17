@@ -10,8 +10,15 @@ header {
     background-color: violet;
 
 }
-header  {
+header p{
     text-align:  center;
     font-weight: bold;
     font-size: 110%;
+}
+
+.byline {
+
+    font-size: 80%;
+    font-style: italic;
+
 }
