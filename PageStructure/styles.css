@@ -1,0 +1,26 @@
+header {
+
+    font-weight: blue;
+    text-align: center;
+}
+
+header p {
+    font-weight: bold;
+    color: blue;
+
+}
+
+.byline {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+}
+
+main {
+    background-color: lightgray;
+}
+
+footer {
+    background-color: lightgreen;
+    text-align: center;
+}
