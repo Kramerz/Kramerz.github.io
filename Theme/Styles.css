@@ -1,4 +1,23 @@
+.byline {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+}
+
 header {
     background-color: lightblue;
     text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+img#DevOpsImg {
+    float: left;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+main {
+    background-color: lightgrey;
 }
