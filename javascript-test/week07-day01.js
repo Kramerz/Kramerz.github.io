@@ -16,13 +16,18 @@ else {
 }
 
 
-num = 5;
-if(num % 2 === 0){
-    console.log("Value is even!");
+
+function evenOrOdd(value){
+    if(value % 2 === 0){
+        console.log("Value is even!");
+    }
+    else{
+        console.log("Value is not even :'(");
+    }
 }
-else{
-    console.log("Value is not even :'(");
-}
+
+evenOrOdd(55);
+
 
 console.log('MODULES TEST FOR EVEN: ',num % 2);
 console.log('Modules test for even: ', num % 2 === 0);
