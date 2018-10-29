@@ -10,6 +10,27 @@ h5 {
     text-align: center;
 }
 
+nav {        
+    background-color: #E27D60;
+    border: 1px green solid;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
+}
+
 main {
     background-color: #c38d9e;
     margin-left: 75px;
