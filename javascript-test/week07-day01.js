@@ -1,4 +1,4 @@
-const num = 3;
+let num = 5;
 const numString = '3';
 const rain = true;
 
@@ -15,3 +15,30 @@ else {
     console.log("Looks like will just go for a walk....");
 }
 
+
+num = 5;
+if(num % 2 === 0){
+    console.log("Value is even!");
+}
+else{
+    console.log("Value is not even :'(");
+}
+
+console.log('MODULES TEST FOR EVEN: ',num % 2);
+console.log('Modules test for even: ', num % 2 === 0);
+
+var app = {
+
+    isEven: function(input) {
+        if (input % 2 === 0) {
+            console.log('Your input of ' + input + ' is even');
+        } else {
+            console.log('Your input of ' + input + ' is odd');
+        }
+    }
+};
+
+app.isEven(2);
+app.isEven(3);
+app.isEven(4);
+app.isEven(5);
