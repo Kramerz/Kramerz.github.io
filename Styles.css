@@ -1,5 +1,21 @@
 h1 {
-    color: chartreuse;
-    
+    text-align: center;
 
+}
+h5 {
+    text-align: center;
+}
+
+#introParagraph {
+    text-align: center;
+}
+
+header {
+    background-color: #E27D60;
+    margin-left: 75px;
+    margin-right: 75px;
+    border-radius: 25px;
+}
+body {
+    background-color: #41b3a3
 }
