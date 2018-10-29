@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-
+    text-decoration: underline;
 }
 h5 {
     text-align: center;
@@ -8,6 +8,13 @@ h5 {
 
 #introParagraph {
     text-align: center;
+}
+
+main {
+    background-color: #c38d9e;
+    margin-left: 75px;
+    margin-right: 75px;
+    border-radius: 25px;
 }
 
 header {
@@ -18,4 +25,37 @@ header {
 }
 body {
     background-color: #41b3a3
+}
+
+.navigation {
+    background-color: #C38D9E;
+}
+
+li {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.floatright {
+    float: right;
+}
+
+.size {
+    width: 25em;
+    height: 15em;
+}
+
+footer {
+    text-align: center;
+    background-color: #E8A87C;
+    margin-left: 75px;
+    margin-right: 75px;
+    border-radius: 25px; 
+}
+
+ul {
+     list-style-type: none;
+}
+li.footerSection {
+    font-size: 20px;
 }

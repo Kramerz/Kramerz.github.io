@@ -1,13 +1,46 @@
+ aside {        
+        background-color: bisque;
+        border: black 1px solid;
+        border-radius: 8px;
+        float: right;
+        font-style: italic;
+        margin-right: 5px;
+        padding: 8px;
+        width: 33%;        
+}
+
 button {
     background-color: blue;
     border: 2px solid #0099CC;
     color: #0099CC;
     text-align: center;    
     font-size: 22px;
+    
 }
 
-figure {
+.elf-div-border {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    
+}
 
+.padding {
+    padding: 25px;
+    border: 10px green double;    
+    border-radius: 22px;
+    background-color: whitesmoke;
+}
+
+.figureMain {
+    margin-right: 15px;
+}
+
+.padding:hover {
+    background-color: lightpink;
+    border-color: white;
+}
+.padding:active {
+    color:red;
 }
 
 header {
