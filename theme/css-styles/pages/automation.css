@@ -1,0 +1,22 @@
+main {
+    border-radius: 20px;
+    color: lightgrey;
+    background-color: #606060;
+}
+
+main .mainParagraphs {
+    text-align: center;
+}
+
+img {
+    width: 15%;
+    height: 10%;
+    float: right;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+ul {
+    list-style-type: none;
+}

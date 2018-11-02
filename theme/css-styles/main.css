@@ -1,0 +1,72 @@
+.byline {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+}
+
+header {
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+h1 {
+    text-align: center;
+}
+
+img#TestDev {
+    float: left;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+img#SonAndMe {
+    width: 30%;
+    height: 30%;
+    float: left;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+main {
+    background-color: lightgrey;
+    margin-top: 3%;
+}
+footer {
+    background-color: peachpuff;
+    text-align: center;
+}
+
+   
+/* Navigation Section  */
+nav
+{
+
+    top:100px;
+    left:0;
+    right:0;
+    bottom:0;
+    min-width:200px;
+    text-align:center;
+    height:20px;
+    padding:10px 20px;
+    margin-top: 5px;
+    margin-bottom: 5%;
+
+
+}
+
+nav a
+{
+    font-size:12px;
+    margin:15px 0;
+    height:10px;
+    padding:12px 10px;
+    color:#000;
+    text-decoration:none;
+}
+
+nav a:hover
+{
+    background-color: white;
+}
