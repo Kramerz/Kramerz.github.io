@@ -5,6 +5,7 @@ main {
 }
 
 main .mainParagraphs {
+    padding-top: 15px;
     text-align: center;
 }
 
