@@ -3,3 +3,24 @@ main {
     color: lightgrey;
     background-color: #606060;
 }
+
+aside {
+    background-color: beige;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 8px;
+    width: 15%;
+    color: black;
+    
+}
+
+img {   
+    float: right;
+    padding-right: 15px;
+    position: relative;
+    
+}   

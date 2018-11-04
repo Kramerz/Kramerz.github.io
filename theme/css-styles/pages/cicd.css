@@ -9,3 +9,8 @@ img.cicdimg {
     height: auto;
     
 }
+main {
+    border-radius: 20px;
+    color: lightgrey;
+    background-color: #606060;
+}
