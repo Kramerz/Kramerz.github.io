@@ -3,8 +3,10 @@ h2 {
     padding: 15px;
 }
 
-p {
-    
+p.containers {
+     font-size: 22px;
+    padding: 15px 15px;
+    word-spacing: 5px;
 }
 figure.right {
         float: right;
@@ -23,13 +25,21 @@ img {
 a span {
     position:absolute; 
   display:none; 
-  z-index:99;
+ 
   left:50%;
  
 }
 
 img:hover {
-   -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+     z-index:99;
+    transform: scale(4.5);
+}
+
+main {
+    border-radius: 20px;
+    color: lightgrey;
+    background-color: #606060;
 }

@@ -1,0 +1,37 @@
+main {
+    border-radius: 20px;
+    color: lightgrey;
+    background-color: #606060;
+}
+p.code {
+    font-size: 22px;
+    padding: 15px 15px;
+    
+}
+aside.left {
+    background-color: black;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: left;
+    font-style: italic;
+    margin-left: 15px;
+    padding: 8px;
+    margin-right: 15px;
+    width: 15%;
+    color: white;
+    
+}
+
+aside.right {
+    background-color: black;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 8px;
+    width: 15%;
+    color: white;
+    
+}
