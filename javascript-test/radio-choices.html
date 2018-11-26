@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Radio Choices</title>
+    <script src="radio-choices.js"></script>
+    <link rel="stylesheet" href="../Styles.css">
+</head>
+<body>
+    <header>
+        <h1>Radio Choices</h1>
+    </header>
+    <main>
+        <fieldset>
+            <legend>The Use Selection</legend>
+            <p><b>User choice</b>: <span id="user-choice">Unknown</span></p> 
+        </fieldset>
+        <fieldset>
+                <legend>Our Form</legend>
+                <form id="sort-type" action="goThere">
+                        <input type="radio" id="rank" name="sorter" value="Rank" checked>
+                        <label for="rank">Rank</label>
+
+                        <input type="radio" id="language" name="sorter" value="Language">
+                        <label for="language">Language</label>
+
+                        <input type="radio" id="Status" name="sorter" value="Status">
+                        <label for="language">Status</label>
+
+                        <input type="radio" id="Category" name="sorter" value="Category">
+                        <label for="language">Category</label>
+
+                        <input type="radio" id="Downloads" name="sorter" value="Downloads">
+                        <label for="language">Downloads</label>
+
+                        <div>
+                        <input class="btn-padding" type="submit" value="Submit">
+                        </div>
+                    </form>
+        </fieldset>
+    </main>
+    <footer>
+            &copy; - Ryan William West 
+            <a href="../index.html">Index</a>
+    </footer>
+ 
+
+</body>
+</html>
